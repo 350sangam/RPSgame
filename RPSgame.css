@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+.container{
+    padding-bottom: 35px;
+    text-align: center;
+    color: antiquewhite;
+    border: 1px solid white;
+
+}
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.flex-box img:hover{
+    transform: scale(1.15);
+    transition: transform 0.2s;
+    box-shadow: 1px 1px 10px 10px aqua;
+   
+}
+#btn{
+    text-decoration: solid black;
+}
